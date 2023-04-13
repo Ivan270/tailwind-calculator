@@ -11,7 +11,6 @@ teclado.addEventListener('click', (e) => {
 	} else if (boton.matches('.operadores')) {
 		if (boton.innerText == '=') {
 			let resultado = eval(pantalla.innerText);
-			console.log(resultado);
 			pantalla.innerText = resultado;
 		} else if (boton.innerText == 'AC') {
 			pantalla.innerText = '';
