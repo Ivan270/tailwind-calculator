@@ -1,5 +1,4 @@
 let teclado = document.querySelector('.calculadora__teclado');
-// let botones = document.querySelectorAll('button');
 let pantalla = document.getElementById('pantalla');
 pantalla.innerText = '';
 teclado.addEventListener('click', (e) => {
